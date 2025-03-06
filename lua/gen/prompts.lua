@@ -1,5 +1,6 @@
 return {
-    Generate = {
+    Generate = { prompt = "$input", replace = true },
+    Generate_Code = {
         prompt = "$input\nDO NOT output any explainations or anything except for code only",
         replace = true,
     },
